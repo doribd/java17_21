@@ -1,6 +1,8 @@
 /**
- * Simple example for using text blocks (Java 15) +
- * Inheritance of sealed class + Implementation of sealed interface.
+ * Java 21 example demonstrating:
+ * - Text blocks (Java 15+)
+ * - Sealed class inheritance (Java 17+)
+ * - Sealed interface implementation (Java 17+)
  */
 public final class English extends Letters implements Hash {
     @Override
