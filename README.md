@@ -1,9 +1,11 @@
-# Java Features Demo (Java 10-21)
+# Java Features Demo (Java 10-25)
 
-This repository demonstrates modern Java features from Java 10 through Java 21.
+This repository demonstrates modern Java features from Java 10 through Java 25.
 
 ## Repository Structure
 
+- `trail/src/Main25.java` - Java 25 features demonstration
+- `trail/src/StreamGatherers25.java` - Java 25 Stream Gatherers API examples
 - `trail/src/Main21.java` - Java 21 features demonstration
 - `trail/src/Main.java` - Java 17 and earlier features
 - `trail/src/Letters.java` - Sealed class example
@@ -11,6 +13,12 @@ This repository demonstrates modern Java features from Java 10 through Java 21.
 - `trail/src/English.java` - Text blocks and sealed types
 
 ## Features by Version
+
+### Java 25
+- **Flexible constructor bodies (JEP 482)** - Statements before super() in constructors
+- **Primitive type patterns (JEP 455)** - Pattern matching with primitive types in switch and instanceof
+- **Stream Gatherers** - Custom intermediate stream operations (windowFixed, windowSliding, fold, mapConcurrent)
+- **Enhanced pattern matching** - Primitive patterns in switch expressions with guards
 
 ### Java 21
 - **Record patterns in switch** - Pattern matching with records in switch expressions
@@ -32,4 +40,5 @@ This repository demonstrates modern Java features from Java 10 through Java 21.
 
 ## Compilation Requirements
 
-This code requires Java 21 or later to compile and run all examples.
+- Java 21 examples require Java 21 or later
+- Java 25 examples require Java 25 or later (or a compatible early-access build)
